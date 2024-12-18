@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.app-container {
+  padding: 20px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.language-filters-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.loader-container {
+  text-align: center;
+}
+
+.error-message {
+  text-align: center;
+  color: red;
+}
+
+.repository-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.repository-item {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.repo-avatar {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.repo-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.repo-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.repo-detail {
+  display: flex;
+  align-items: center;
+}
+
+.repo-detail-icon {
+  width: 20px;
+  margin-right: 5px;
+}
